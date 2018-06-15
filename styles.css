@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0px!important;
+}
+.slick-dots {
+    bottom: 10px;
+   }
+.boxes{
+  background:#202a35;
+}
+.product{
+  cursor:pointer;
+  min-height:250px;
+  display: table;
+  width: 100%;
+  float:left;
+}
+.product:hover {
+  background-color: #0d1017;
+}
+
+.product:hover:active {
+  background-color: #0d1017;
+}
+.content{
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.column{
+  padding-left:0px;
+  padding-right:0px;
+}
+@media only screen and (max-width: 1199px) {
+  .boxes .column {
+    border: 1px solid #0d1017;
+
+  }
+}
+
+ .boxes .column + .column {
+    border-left: 1px solid #0d1017;
+}
+
+    
+
